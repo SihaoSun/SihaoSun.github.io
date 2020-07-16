@@ -21,9 +21,8 @@
 title: Sihao Sun
 email: sihao.sun@outlook.com
 description: aaa
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "/SihaoSun" # the subpath of your site, e.g. /blog
 url: "https://sihaosun.com" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  SihaoSun
 
 # Build settings
 permalink: pretty
@@ -39,6 +38,7 @@ exclude:
 
 sass:
   sass_dir: _sass
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
