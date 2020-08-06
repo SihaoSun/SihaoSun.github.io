@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fault Tolerant Flight Control | Sihao Sun</title>
+    <link>https://SihaoSun.github.io/tag/fault-tolerant-flight-control/</link>
+      <atom:link href="https://SihaoSun.github.io/tag/fault-tolerant-flight-control/index.xml" rel="self" type="application/rss+xml" />
+    <description>Fault Tolerant Flight Control</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 27 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://SihaoSun.github.io/images/icon_hu35fae845bfb2967a95b594696cd96ab9_21583_512x512_fill_lanczos_center_2.png</url>
+      <title>Fault Tolerant Flight Control</title>
+      <link>https://SihaoSun.github.io/tag/fault-tolerant-flight-control/</link>
+    </image>
+    
+    <item>
+      <title>Quadrotor Fault Tolerant Flight Control</title>
+      <link>https://SihaoSun.github.io/project/quadrotorftc/</link>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://SihaoSun.github.io/project/quadrotorftc/</guid>
+      <description>&lt;p&gt;As the most commonly used and simplest multi-rotor drones, quadrotors are
+especially vulnerable to rotor failures because they lack rotor redundancy. This project aims at introducing novel flight control methods to mitigate the consequence of in-flight motor failures, which rarely happens but is still a big safety threat after large scale deployment of drones in the future.&lt;/p&gt;
+&lt;p&gt;To be specific, the project leverages incremental nonlinear dynamic inversion (INDI) control method, to stabilize and control a quadrotor with failure of a 
+&lt;a href=&#34;https://SihaoSun.github.io/publication/highspeedral/&#34;&gt;&lt;strong&gt;single rotor&lt;/strong&gt;&lt;/a&gt; or 
+&lt;a href=&#34;https://SihaoSun.github.io/publication/highspeedral/&#34;&gt;&lt;strong&gt;two opposing rotors&lt;/strong&gt;&lt;/a&gt;, under significant aerodynamic disturbances. These strong aerodynamic effects are dominant in high-speed flight, or windy conditions. Thanks to the robustness of the INDI controller, the damaged quadrotor maintains controllable in spite of these aeordynamic disturbances.&lt;/p&gt;
+&lt;p&gt;We have validated the proposed controllers in a large scale wind tunnel, named 
+&lt;a href=&#34;https://www.tudelft.nl/lr/organisatie/afdelingen/aerodynamics-wind-energy-flight-performance-and-propulsion/facilities/low-speed-wind-tunnels/open-jet-facility/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Open Jet Facility&lt;/strong&gt;&lt;/a&gt; at TU Delft. Despite a complete loss of one or two propellers, the tested quadrotor can maintain high-speed flight. In addition to validating the controller, these wind tunnel flight tests have produced valuable data for identifying 
+&lt;a href=&#34;https://SihaoSun.github.io/project/quadrotormodeling&#34;&gt;&lt;strong&gt;aerodynamic models&lt;/strong&gt;&lt;/a&gt; of a quadrotor, in both nominal and damaged conditions.&lt;/p&gt;
+&lt;p&gt;Another focus of the research aims at recovering the damaged quadrotor after motor failure. When a motor failure is detected, a quadrotor might have been entered a detrimental flight condition, such as an upside-down orientation, where the drone can hardly recover to stable flights using the state-of-art methods.
+Therefore, we have developed an 
+&lt;a href=&#34;https://SihaoSun.github.io/publication/upsetrecovery/&#34;&gt;&lt;strong&gt;upset recovery controller&lt;/strong&gt;&lt;/a&gt;, using a novel control allocation approach.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aerodynamic Modeling | Sihao Sun</title>
+    <link>https://SihaoSun.github.io/tag/aerodynamic-modeling/</link>
+      <atom:link href="https://SihaoSun.github.io/tag/aerodynamic-modeling/index.xml" rel="self" type="application/rss+xml" />
+    <description>Aerodynamic Modeling</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://SihaoSun.github.io/images/icon_hu35fae845bfb2967a95b594696cd96ab9_21583_512x512_fill_lanczos_center_2.png</url>
+      <title>Aerodynamic Modeling</title>
+      <link>https://SihaoSun.github.io/tag/aerodynamic-modeling/</link>
+    </image>
+    
+    <item>
+      <title>Quadrotors Aerodynamic Modeling Identification</title>
+      <link>https://SihaoSun.github.io/project/quadrotormodeling/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://SihaoSun.github.io/project/quadrotormodeling/</guid>
+      <description>&lt;p&gt;Aerodynamic effects of a multi-rotor drone are complicated. Although most of the time, a multi-rotor drone operates at a near-hovering condition where these aerodynamic effects are negligible, a high-speed applicable aerodynamic model is &amp;ldquo;always&amp;rdquo; welcomed for analyzing drone performance, designing agile flight tractories, and boosting controller performance.&lt;/p&gt;
+&lt;p&gt;This research project aims at developing aerodynamic models of a quadrotor using system identification approaches. To this end, we have conducted flight tests of a quadrotor in a large scale wind tunnel, namely Open Jet Facility at TU Delft. As a first research outcome, we have obtained a high-speed applicable 
+&lt;a href=&#34;https://SihaoSun.github.io/publication/grayboxmodel/&#34;&gt;&lt;strong&gt;gray-box model&lt;/strong&gt;&lt;/a&gt; capturing dominant aerodynamic effects (such as blade-flapping, thrust variation) as well as minor effects (e.g., rotor-body wake interactions, aerodynamic moments).&lt;/p&gt;
+&lt;p&gt;After designing some novel 
+&lt;a href=&#34;https://SihaoSun.github.io/project/quadrotorftc/&#34;&gt;&lt;strong&gt;fault-tolerant flight controllers&lt;/strong&gt;&lt;/a&gt;, we have conducted a wind tunnel flight test of a high-speed spinning quadrotor with the complete failure of one or two rotors. Using these flight data, we have identified a more generalized 
+&lt;a href=&#34;https://SihaoSun.github.io/publication/aerodynamicmodel/&#34;&gt;&lt;strong&gt;aerodynamic force/moment model&lt;/strong&gt;&lt;/a&gt;, with very few parameters. This model can be either applied to a quadrotor without failure or with the complete loss of a propeller.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
