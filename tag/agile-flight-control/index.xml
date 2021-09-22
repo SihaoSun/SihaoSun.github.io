@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Agile Flight Control | Sihao Sun</title>
+    <link>https://SihaoSun.github.io/tag/agile-flight-control/</link>
+      <atom:link href="https://SihaoSun.github.io/tag/agile-flight-control/index.xml" rel="self" type="application/rss+xml" />
+    <description>Agile Flight Control</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 20 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://SihaoSun.github.io/images/icon_hu35fae845bfb2967a95b594696cd96ab9_21583_512x512_fill_lanczos_center_2.png</url>
+      <title>Agile Flight Control</title>
+      <link>https://SihaoSun.github.io/tag/agile-flight-control/</link>
+    </image>
+    
+    <item>
+      <title>Agile Flight Control for Drones</title>
+      <link>https://SihaoSun.github.io/project/quadrotoragile/</link>
+      <pubDate>Mon, 20 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://SihaoSun.github.io/project/quadrotoragile/</guid>
+      <description>&lt;p&gt;Many drones, such as quadrotors, are highly agile compared with other robotic/aerospace systems. However, their agility is not fully exploited, owning to the immaturity of flight algorithms. This project aims at further excavating the potential of drones to achieve their maximum agility, which is highly beneficial for time-critical missions such as search and rescue.&lt;/p&gt;
+&lt;p&gt;So far, we have made a thorough 
+&lt;a href=&#34;http://rpg.ifi.uzh.ch/docs/Arxiv21_MPC_Sun.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;comparative study&lt;/strong&gt;&lt;/a&gt; of the two most promising control approaches for agile drone flights: the differential-flatness-based controller (sometimes it&amp;rsquo;s referred to as the geometric control), and the nonlinear model predictive control. This study shows that both methods have the ability to track agile trajectories with 20m/s top speed and 5g acceleration. But the nonlinear model predictive control shows better performance when tracking many dynamically infeasible trajectories.&lt;/p&gt;
+&lt;p&gt;We also propose a 
+&lt;a href=&#34;http://rpg.ifi.uzh.ch/docs/Arxiv21_MPCC_Romero.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;nonlinear model predictive contouring controller (MPCC)&lt;/strong&gt;&lt;/a&gt; for agile drone flights. Unlike the above two state-of-the-art methods, this control approach does not need an off-line generated time-optimal trajectory encoding full states of a quadrotor. Instead, it can follow arbitrary 3D paths in a near-time-optimal manner. These 3D paths can be splines, or time-optimal trajectories computed using a reduced model, which can be effectively generated online to be adaptive against environment uncertainties. Thanks to this property, our method achieves a decent trade-off between robustness and performance during agile flights in cluttered environments. (Check our 
+&lt;a href=&#34;https://youtu.be/mHDQcckqdg4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;video&lt;/strong&gt;&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Model uncertainties, especially from complex aerodynamic effects, are another major threat to flying safety and degrades the performance in agile flights. For this, we proposed a nonlinear model predictive control framework combining the L1 adaptive control 
+&lt;a href=&#34;https://arxiv.org/pdf/2109.04210.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;(L1-NMPC)&lt;/strong&gt;&lt;/a&gt;. Extensive flight experiments demonstrate that the proposed method has high robustness against different types of model uncertainties, including mismatch in the inertial properties, slosh payload (like a beer!), and complex aerodynamic effects. (Check our 
+&lt;a href=&#34;https://youtu.be/mHDQcckqdg4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;video&lt;/strong&gt;&lt;/a&gt;)&lt;/p&gt;
+&lt;!-- effectively reduce the effort of generating a time-optimal trajectory that is normally computationaly untractable on an embbedded computer.  --&gt;
+&lt;!-- As the most commonly used and simplest multi-rotor drones, quadrotors are
+especially vulnerable to rotor failures because they lack rotor redundancy. This project aims at introducing novel flight control methods to mitigate the consequence of in-flight motor failures, which rarely happens but is still a big safety threat after large scale deployment of drones in the future.
+
+To be specific, the project leverages incremental nonlinear dynamic inversion (INDI) control method, to stabilize and control a quadrotor with failure of a [**single rotor**](/publication/highspeedral/) or [**two opposing rotors**](/publication/incrementalnonlinear/), under significant aerodynamic disturbances. These strong aerodynamic effects are dominant in high-speed flight, or windy conditions. Thanks to the robustness of the INDI controller, the damaged quadrotor maintains controllable in spite of these aeordynamic disturbances.
+
+We have validated the proposed controllers in a large scale wind tunnel, named [**Open Jet Facility**](https://www.tudelft.nl/lr/organisatie/afdelingen/aerodynamics-wind-energy-flight-performance-and-propulsion/facilities/low-speed-wind-tunnels/open-jet-facility/) at TU Delft. Despite a complete loss of one or two propellers, the tested quadrotor can maintain high-speed flight. In addition to validating the controller, these wind tunnel flight tests have produced valuable data for identifying [**aerodynamic models**](/project/quadrotormodeling) of a quadrotor, in both nominal and damaged conditions.
+
+Another focus of the research aims at recovering the damaged quadrotor after motor failure. When a motor failure is detected, a quadrotor might have been entered a detrimental flight condition, such as an upside-down orientation, where the drone can hardly recover to stable flights using the state-of-art methods.
+Therefore, we have developed an [**upset recovery controller**](/publication/upsetrecovery/), using a novel control allocation approach. --&gt;&lt;blockquote&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
