@@ -55,7 +55,11 @@ especially vulnerable to rotor failures because they lack rotor redundancy. This
 &lt;a href=&#34;https://SihaoSun.github.io/project/quadrotormodeling&#34;&gt;&lt;strong&gt;aerodynamic models&lt;/strong&gt;&lt;/a&gt; of a quadrotor, in both nominal and damaged conditions.&lt;/p&gt;
 &lt;p&gt;Another focus of the research aims at recovering the damaged quadrotor after motor failure. When a motor failure is detected, a quadrotor might have been entered a detrimental flight condition, such as an upside-down orientation, where the drone can hardly recover to stable flights using the state-of-art methods.
 Therefore, we have developed an 
-&lt;a href=&#34;https://SihaoSun.github.io/publication/upsetrecovery/&#34;&gt;&lt;strong&gt;upset recovery controller&lt;/strong&gt;&lt;/a&gt;, using a novel control allocation approach.&lt;/p&gt;
+&lt;a href=&#34;https://SihaoSun.github.io/publication/upsetrecovery/&#34;&gt;&lt;strong&gt;upset recovery controller&lt;/strong&gt;&lt;/a&gt;, using a novel control allocation approach. We have explored the performance of using 
+&lt;a href=&#34;https://SihaoSun.github.io/publication/mpc_ftc&#34;&gt;&lt;strong&gt;nonlienar model predictive controller (NMPC)&lt;/strong&gt;&lt;/a&gt; on the upset recovery task. The fail-safe performance is mind blowing. It is able to recover the quadrotor after motor failure not only from extreme orientations, but also from agile flights.&lt;/p&gt;
+&lt;p&gt;Above research, all rely on external sensors to provide reliable state estimates of the damaged quadrotor. This is a strong assumption in real-world scenarios where motion capture systems are not available and GPS signals can be degraded. For this reason, we have explored using 
+&lt;a href=&#34;https://SihaoSun.github.io/publication/visionftc&#34;&gt;&lt;strong&gt;onboard vision sensors to provide a full-state estimation of the drone with motor failures&lt;/strong&gt;&lt;/a&gt;. The high-speed yaw motion makes it challenging to use a vision-based estimator as it brings motion blur. Hence we have conducted a research project to explore the potential of using standard frame-based cameras and event-based cameras on quadrotor fail-safe tasks. This work has been awarded a 
+&lt;a href=&#34;https://www.ieee-ras.org/publications/ra-l/ra-l-paper-awards&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Best Paper Award from IEEE Robotics and Automation Letters&lt;/strong&gt;&lt;/a&gt; in 2021.&lt;/p&gt;
 </description>
     </item>
     

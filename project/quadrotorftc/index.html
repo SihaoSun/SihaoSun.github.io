@@ -638,7 +638,11 @@ especially vulnerable to rotor failures because they lack rotor redundancy. This
 <a href="/project/quadrotormodeling"><strong>aerodynamic models</strong></a> of a quadrotor, in both nominal and damaged conditions.</p>
 <p>Another focus of the research aims at recovering the damaged quadrotor after motor failure. When a motor failure is detected, a quadrotor might have been entered a detrimental flight condition, such as an upside-down orientation, where the drone can hardly recover to stable flights using the state-of-art methods.
 Therefore, we have developed an 
-<a href="/publication/upsetrecovery/"><strong>upset recovery controller</strong></a>, using a novel control allocation approach.</p>
+<a href="/publication/upsetrecovery/"><strong>upset recovery controller</strong></a>, using a novel control allocation approach. We have explored the performance of using 
+<a href="/publication/mpc_ftc"><strong>nonlienar model predictive controller (NMPC)</strong></a> on the upset recovery task. The fail-safe performance is mind blowing. It is able to recover the quadrotor after motor failure not only from extreme orientations, but also from agile flights.</p>
+<p>Above research, all rely on external sensors to provide reliable state estimates of the damaged quadrotor. This is a strong assumption in real-world scenarios where motion capture systems are not available and GPS signals can be degraded. For this reason, we have explored using 
+<a href="/publication/visionftc"><strong>onboard vision sensors to provide a full-state estimation of the drone with motor failures</strong></a>. The high-speed yaw motion makes it challenging to use a vision-based estimator as it brings motion blur. Hence we have conducted a research project to explore the potential of using standard frame-based cameras and event-based cameras on quadrotor fail-safe tasks. This work has been awarded a 
+<a href="https://www.ieee-ras.org/publications/ra-l/ra-l-paper-awards" target="_blank" rel="noopener"><strong>Best Paper Award from IEEE Robotics and Automation Letters</strong></a> in 2021.</p>
 
     </div>
 
@@ -906,6 +910,126 @@ Therefore, we have developed an
   <div class="media-body">
 
     <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/mpc_ftc/" >Nonlinear MPC for Quadrotor Fault-Tolerant Control</a>
+    </h3>
+
+    
+    <div class="article-style">
+      We study the performance of using nonlinear MPC on quadrotor fail-safe problem. The result is amazing.
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span >nan fang</span>, <span ><a href="/author/sihao-sun/">Sihao Sun</a></span>, <span >philipp foehn</span>, <span >davide scaramuzza</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2109.12886.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/mpc_ftc/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/quadrotorftc/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://youtu.be/Cn_836XGEnU" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/mpc_ftc/" >
+      <img src="/publication/mpc_ftc/featured_hu76b68634e5bbfb76f257ff47a4931398_541391_150x0_resize_lanczos_2.png" alt="Nonlinear MPC for Quadrotor Fault-Tolerant Control">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
       <a href="/publication/visionftc/" >Autonomous Quadrotor Flight despite Rotor Failure with Onboard Vision Sensors Frames vs. Events</a>
     </h3>
 
@@ -924,7 +1048,7 @@ Therefore, we have developed an
         
 
   
-  <span ><a href="/author/sihao-sun/">Sihao Sun</a></span>, <span >Giovanni Cioffi</span>, <span >Coen de Visser</span>, <span >Davide Scaramuzza</span>
+  <span ><a href="/author/sihao-sun/">Sihao Sun</a></span>, <span >giovanni cioffi</span>, <span >coen de visser</span>, <span >davide scaramuzza</span>
       </div>
       
     </div>
@@ -1068,7 +1192,7 @@ Therefore, we have developed an
         
 
   
-  <span ><a href="/author/sihao-sun/">Sihao Sun</a></span>, <span >Xuerui Wang</span>, <span >Qiping Chu</span>, <span >Coen de Visser</span>
+  <span ><a href="/author/sihao-sun/">Sihao Sun</a></span>, <span >xuerui wang</span>, <span >qiping chu</span>, <span >coen de visser</span>
       </div>
       
     </div>
@@ -1196,7 +1320,7 @@ Therefore, we have developed an
         
 
   
-  <span ><a href="/author/sihao-sun/">Sihao Sun</a></span>, <span >Leon Sijbers</span>, <span >Xuerui Wang</span>, <span >Coen de Visser</span>
+  <span ><a href="/author/sihao-sun/">Sihao Sun</a></span>, <span >leon sijbers</span>, <span >xuerui wang</span>, <span >coen de visser</span>
       </div>
       
     </div>
@@ -1332,7 +1456,7 @@ Therefore, we have developed an
         
 
   
-  <span ><a href="/author/sihao-sun/">Sihao Sun</a></span>, <span >Matthias Beart</span>, <span >Bram Strack van Schijndel</span>, <span >Coen de Visser</span>
+  <span ><a href="/author/sihao-sun/">Sihao Sun</a></span>, <span >matthias beart</span>, <span >bram strack van schijndel</span>, <span >coen de visser</span>
       </div>
       
     </div>
@@ -1484,7 +1608,7 @@ Therefore, we have developed an
         
 
   
-  <span >Xuerui Wang</span>, <span ><a href="/author/sihao-sun/">Sihao Sun</a></span>, <span >Erik-Jan van Kampen</span>, <span >Qiping Chu</span>
+  <span >xuerui wang</span>, <span ><a href="/author/sihao-sun/">Sihao Sun</a></span>, <span >erik-jan van kampen</span>, <span >qiping chu</span>
       </div>
       
     </div>
