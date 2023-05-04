@@ -1,246 +1,148 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://SihaoSun.github.io/publication-type/2/</loc>
     <lastmod>2022-02-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://SihaoSun.github.io/authors/</loc>
     <lastmod>2022-02-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://SihaoSun.github.io/author/davide-scaramuzza/</loc>
     <lastmod>2022-02-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://SihaoSun.github.io/author/nan-fang/</loc>
     <lastmod>2022-02-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://SihaoSun.github.io/publication/mpc_ftc/</loc>
     <lastmod>2022-02-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://SihaoSun.github.io/author/philipp-foehn/</loc>
     <lastmod>2022-02-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://SihaoSun.github.io/publication_types/</loc>
     <lastmod>2022-02-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://SihaoSun.github.io/publication/</loc>
     <lastmod>2022-02-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://SihaoSun.github.io/</loc>
     <lastmod>2022-02-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://SihaoSun.github.io/author/sihao-sun/</loc>
     <lastmod>2022-02-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://SihaoSun.github.io/tag/source-themes/</loc>
     <lastmod>2022-02-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://SihaoSun.github.io/tags/</loc>
     <lastmod>2022-02-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://SihaoSun.github.io/publication-type/3/</loc>
     <lastmod>2021-09-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://SihaoSun.github.io/publication/comparativestudy/</loc>
     <lastmod>2021-09-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://SihaoSun.github.io/tag/agile-flight-control/</loc>
     <lastmod>2021-09-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://SihaoSun.github.io/project/quadrotoragile/</loc>
     <lastmod>2021-09-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://SihaoSun.github.io/author/angel-romero/</loc>
     <lastmod>2021-09-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://SihaoSun.github.io/author/drew-hanover/</loc>
     <lastmod>2021-09-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://SihaoSun.github.io/author/elia-kaufmann/</loc>
     <lastmod>2021-09-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://SihaoSun.github.io/publication/mpcc/</loc>
     <lastmod>2021-09-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://SihaoSun.github.io/publication/mpcl1/</loc>
     <lastmod>2021-09-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://SihaoSun.github.io/project/</loc>
     <lastmod>2021-09-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://SihaoSun.github.io/publication/visionftc/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://SihaoSun.github.io/author/coen-de-visser/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://SihaoSun.github.io/author/giovanni-cioffi/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://SihaoSun.github.io/publication/incrementalnonlinear/</loc>
     <lastmod>2020-08-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://SihaoSun.github.io/author/qiping-chu/</loc>
     <lastmod>2020-08-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://SihaoSun.github.io/author/xuerui-wang/</loc>
     <lastmod>2020-08-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://SihaoSun.github.io/publication-type/1/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://SihaoSun.github.io/author/bram-strack-van-schijndel/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://SihaoSun.github.io/publication/highspeedral/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://SihaoSun.github.io/author/leon-sijbers/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://SihaoSun.github.io/author/matthias-beart/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://SihaoSun.github.io/publication/upsetrecovery/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://SihaoSun.github.io/tag/fault-tolerant-flight-control/</loc>
     <lastmod>2020-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://SihaoSun.github.io/project/quadrotorftc/</loc>
     <lastmod>2020-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://SihaoSun.github.io/publication/aerodynamicmodel/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://SihaoSun.github.io/publication/grayboxmodel/</loc>
     <lastmod>2019-03-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://SihaoSun.github.io/publication/flightenvelopemontecarlo/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://SihaoSun.github.io/author/erik-jan-van-kampen/</loc>
     <lastmod>2017-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://SihaoSun.github.io/publication/incrementalsmc/</loc>
     <lastmod>2017-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://SihaoSun.github.io/tag/aerodynamic-modeling/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://SihaoSun.github.io/project/quadrotormodeling/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://SihaoSun.github.io/tag/air-cargo/</loc>
     <lastmod>2013-11-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://SihaoSun.github.io/project/aircargo/</loc>
     <lastmod>2013-11-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://SihaoSun.github.io/research/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://SihaoSun.github.io/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://SihaoSun.github.io/post/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://SihaoSun.github.io/talk/</loc>
   </url>
-  
 </urlset>
