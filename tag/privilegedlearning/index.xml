@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PrivilegedLearning | Sihao Sun</title>
+    <link>https://SihaoSun.github.io/tag/privilegedlearning/</link>
+      <atom:link href="https://SihaoSun.github.io/tag/privilegedlearning/index.xml" rel="self" type="application/rss+xml" />
+    <description>PrivilegedLearning</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 27 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://SihaoSun.github.io/images/icon_hu35fae845bfb2967a95b594696cd96ab9_21583_512x512_fill_lanczos_center_3.png</url>
+      <title>PrivilegedLearning</title>
+      <link>https://SihaoSun.github.io/tag/privilegedlearning/</link>
+    </image>
+    
+    <item>
+      <title>Privileged learning for distributed aerial robot control for collaborative object manipulations</title>
+      <link>https://SihaoSun.github.io/assignments/privilegedlearning/</link>
+      <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://SihaoSun.github.io/assignments/privilegedlearning/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

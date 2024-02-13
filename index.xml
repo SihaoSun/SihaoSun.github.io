@@ -5,12 +5,36 @@
     <link>https://SihaoSun.github.io/</link>
       <atom:link href="https://SihaoSun.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Sihao Sun</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 24 Feb 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 10 Feb 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://SihaoSun.github.io/images/icon_hu35fae845bfb2967a95b594696cd96ab9_21583_512x512_fill_lanczos_center_3.png</url>
       <title>Sihao Sun</title>
       <link>https://SihaoSun.github.io/</link>
     </image>
+    
+    <item>
+      <title>Actuator Dynamic Compensator for Incremental Nonlinear Control</title>
+      <link>https://SihaoSun.github.io/assignments/actuator/</link>
+      <pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://SihaoSun.github.io/assignments/actuator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact-based incremental nonlinear control for aerial manipulators</title>
+      <link>https://SihaoSun.github.io/assignments/incrementalcontact/</link>
+      <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://SihaoSun.github.io/assignments/incrementalcontact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Privileged learning for distributed aerial robot control for collaborative object manipulations</title>
+      <link>https://SihaoSun.github.io/assignments/privilegedlearning/</link>
+      <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://SihaoSun.github.io/assignments/privilegedlearning/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Nonlinear MPC for Quadrotor Fault-Tolerant Control</title>
@@ -246,29 +270,6 @@ Therefore, we have developed an
     </item>
     
     <item>
-      <title>Aerodynamic model identification of a quadrotor subjected to rotor failures in the high-speed flight regime</title>
-      <link>https://SihaoSun.github.io/publication/aerodynamicmodel/</link>
-      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://SihaoSun.github.io/publication/aerodynamicmodel/</guid>
-      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Quadrotor gray-box model identification from high-speed flight data</title>
       <link>https://SihaoSun.github.io/publication/grayboxmodel/</link>
       <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
@@ -361,6 +362,14 @@ Supplementary notes can be added here, including [code and math](https://sourcet
       <description>&lt;p&gt;High-Efficiency Air Cargo Design Challenge is the most competitive and challenging event in the Chinese Aeromodelling Design Championship. In this competition, the participants need to design an unmanned aircraft to carry as much payload as possible, while the maximum empty weight of the aircraft is limited to 3kg. In addition, it needs to drop the load (i.e., water bags) onto a target area with sufficient accuracy. Each team’s final score is calculated according to the payload carried and the number of successful “takeoff-drop-landing” cycles within 9 minutes. Hence, it poses high demands on the aircraft design to achieve high aerodynamic and structural efficiency, and decent dynamic characteristics.&lt;/p&gt;
 &lt;p&gt;In this project, as a senior bachelor student, I led a group of 50 students from the faculty of aerospace engineering, electrical engineering, and automation. We designed an aircraft with a wingspan of 4 meters, made up of multiple composite materials, and optimized aerodynamics. We used opensourced and comercial tools to optimize our structral and aerodynamic design, such as XFoil and ANSYS Fluent. Several special designs are also developed and deployed in the competition, such as an all-flying tail, a self-starting engine, and an all-in-one flap-spoiler. The team finally won the championship, and led the competition for three consecutive years.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://SihaoSun.github.io/msc-assignments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://SihaoSun.github.io/msc-assignments/</guid>
+      <description></description>
     </item>
     
     <item>
