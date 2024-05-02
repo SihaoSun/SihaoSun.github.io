@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ActuatorCompensator | Sihao Sun</title>
+    <link>https://SihaoSun.github.io/tag/actuatorcompensator/</link>
+      <atom:link href="https://SihaoSun.github.io/tag/actuatorcompensator/index.xml" rel="self" type="application/rss+xml" />
+    <description>ActuatorCompensator</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 10 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://SihaoSun.github.io/images/icon_hu35fae845bfb2967a95b594696cd96ab9_21583_512x512_fill_lanczos_center_3.png</url>
+      <title>ActuatorCompensator</title>
+      <link>https://SihaoSun.github.io/tag/actuatorcompensator/</link>
+    </image>
+    
+    <item>
+      <title>Actuator Dynamic Compensator for Incremental Nonlinear Control</title>
+      <link>https://SihaoSun.github.io/assignments/actuator/</link>
+      <pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://SihaoSun.github.io/assignments/actuator/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
