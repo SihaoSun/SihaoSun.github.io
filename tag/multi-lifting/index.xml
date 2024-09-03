@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Multi-lifting | Sihao Sun</title>
+    <link>https://SihaoSun.github.io/tag/multi-lifting/</link>
+      <atom:link href="https://SihaoSun.github.io/tag/multi-lifting/index.xml" rel="self" type="application/rss+xml" />
+    <description>Multi-lifting</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 27 May 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://SihaoSun.github.io/images/icon_hu35fae845bfb2967a95b594696cd96ab9_21583_512x512_fill_lanczos_center_3.png</url>
+      <title>Multi-lifting</title>
+      <link>https://SihaoSun.github.io/tag/multi-lifting/</link>
+    </image>
+    
+    <item>
+      <title>Cooperative Aerial Manipulation with Cables</title>
+      <link>https://SihaoSun.github.io/project/multilifting/</link>
+      <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://SihaoSun.github.io/project/multilifting/</guid>
+      <description>&lt;p&gt;Aerial robots generally have limited payload capacity. In this project, we are developing algorithms for drones to collectively carry and manipulate a heavy load.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

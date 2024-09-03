@@ -5,12 +5,35 @@
     <link>https://SihaoSun.github.io/</link>
       <atom:link href="https://SihaoSun.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Sihao Sun</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 03 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 20 Jul 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://SihaoSun.github.io/images/icon_hu35fae845bfb2967a95b594696cd96ab9_21583_512x512_fill_lanczos_center_3.png</url>
       <title>Sihao Sun</title>
       <link>https://SihaoSun.github.io/</link>
     </image>
+    
+    <item>
+      <title>Uncertainty Modeling Enabled Meta Adaptive Control for Aerial Manipulators</title>
+      <link>https://SihaoSun.github.io/publication/metaadaptiveam/</link>
+      <pubDate>Sat, 20 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://SihaoSun.github.io/publication/metaadaptiveam/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
     
     <item>
       <title>Full-body Planning and Control of an Aerial Robotic Manipulator</title>
@@ -42,6 +65,47 @@
       <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://SihaoSun.github.io/assignments/privilegedlearning/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Accurate Aerial Manipulation under Uncertainties</title>
+      <link>https://SihaoSun.github.io/project/accurateam/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://SihaoSun.github.io/project/accurateam/</guid>
+      <description>&lt;p&gt;Unlike mobile robots on the ground, air manipulators are based on a flying platform that can easily suffer from external forces and torque disturbances from the environment, such as wind and unknown payloads. This project aims to improve the accuracy of air manipulators through both hardware design and algorithm improvements.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Nonlinear MPC for Full-Pose Manipulation of a Cable-Suspended Load using Multiple UAVs</title>
+      <link>https://SihaoSun.github.io/publication/mpc_multilifting/</link>
+      <pubDate>Tue, 20 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://SihaoSun.github.io/publication/mpc_multilifting/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cooperative Aerial Manipulation with Cables</title>
+      <link>https://SihaoSun.github.io/project/multilifting/</link>
+      <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://SihaoSun.github.io/project/multilifting/</guid>
+      <description>&lt;p&gt;Aerial robots generally have limited payload capacity. In this project, we are developing algorithms for drones to collectively carry and manipulate a heavy load.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -113,7 +177,9 @@ To be specific, the project leverages incremental nonlinear dynamic inversion (I
 We have validated the proposed controllers in a large scale wind tunnel, named [**Open Jet Facility**](https://www.tudelft.nl/lr/organisatie/afdelingen/aerodynamics-wind-energy-flight-performance-and-propulsion/facilities/low-speed-wind-tunnels/open-jet-facility/) at TU Delft. Despite a complete loss of one or two propellers, the tested quadrotor can maintain high-speed flight. In addition to validating the controller, these wind tunnel flight tests have produced valuable data for identifying [**aerodynamic models**](/project/quadrotormodeling) of a quadrotor, in both nominal and damaged conditions.
 
 Another focus of the research aims at recovering the damaged quadrotor after motor failure. When a motor failure is detected, a quadrotor might have been entered a detrimental flight condition, such as an upside-down orientation, where the drone can hardly recover to stable flights using the state-of-art methods.
-Therefore, we have developed an [**upset recovery controller**](/publication/upsetrecovery/), using a novel control allocation approach. --&gt;</description>
+Therefore, we have developed an [**upset recovery controller**](/publication/upsetrecovery/), using a novel control allocation approach. --&gt;&lt;blockquote&gt;
+&lt;/blockquote&gt;
+</description>
     </item>
     
     <item>
