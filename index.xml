@@ -60,51 +60,11 @@ Supplementary notes can be added here, including [code and math](https://sourcet
     </item>
     
     <item>
-      <title>Privileged learning for distributed aerial robot control for collaborative object manipulations</title>
-      <link>https://SihaoSun.github.io/assignments/privilegedlearning/</link>
-      <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://SihaoSun.github.io/assignments/privilegedlearning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Accurate Aerial Manipulation under Uncertainties</title>
       <link>https://SihaoSun.github.io/project/accurateam/</link>
       <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://SihaoSun.github.io/project/accurateam/</guid>
       <description>&lt;p&gt;Unlike mobile robots on the ground, air manipulators are based on a flying platform that can easily suffer from external forces and torque disturbances from the environment, such as wind and unknown payloads. This project aims to improve the accuracy of air manipulators through both hardware design and algorithm improvements.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Nonlinear MPC for Full-Pose Manipulation of a Cable-Suspended Load using Multiple UAVs</title>
-      <link>https://SihaoSun.github.io/publication/mpc_multilifting/</link>
-      <pubDate>Tue, 20 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://SihaoSun.github.io/publication/mpc_multilifting/</guid>
-      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Cooperative Aerial Manipulation with Cables</title>
-      <link>https://SihaoSun.github.io/project/multilifting/</link>
-      <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://SihaoSun.github.io/project/multilifting/</guid>
-      <description>&lt;p&gt;Aerial robots generally have limited payload capacity. In this project, we are developing algorithms for drones to collectively carry and manipulate a heavy load.&lt;/p&gt;
 </description>
     </item>
     

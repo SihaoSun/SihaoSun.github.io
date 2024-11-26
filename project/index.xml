@@ -22,15 +22,6 @@
     </item>
     
     <item>
-      <title>Cooperative Aerial Manipulation with Cables</title>
-      <link>https://SihaoSun.github.io/project/multilifting/</link>
-      <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://SihaoSun.github.io/project/multilifting/</guid>
-      <description>&lt;p&gt;Aerial robots generally have limited payload capacity. In this project, we are developing algorithms for drones to collectively carry and manipulate a heavy load.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Agile Flight Control for Drones</title>
       <link>https://SihaoSun.github.io/project/quadrotoragile/</link>
       <pubDate>Mon, 20 Sep 2021 00:00:00 +0000</pubDate>

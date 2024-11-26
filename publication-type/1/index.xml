@@ -5,35 +5,12 @@
     <link>https://SihaoSun.github.io/publication-type/1/</link>
       <atom:link href="https://SihaoSun.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 20 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://SihaoSun.github.io/images/icon_hu6c1b14bc8ff89c2ed4ecac6b87cb96ac_156507_512x512_fill_lanczos_center_3.png</url>
       <title>1</title>
       <link>https://SihaoSun.github.io/publication-type/1/</link>
     </image>
-    
-    <item>
-      <title>Nonlinear MPC for Full-Pose Manipulation of a Cable-Suspended Load using Multiple UAVs</title>
-      <link>https://SihaoSun.github.io/publication/mpc_multilifting/</link>
-      <pubDate>Tue, 20 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://SihaoSun.github.io/publication/mpc_multilifting/</guid>
-      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;
-</description>
-    </item>
     
     <item>
       <title>Upset Recovery Control for Quadrotors Subjected to a Complete Rotor Failure from Large Initial Disturbances</title>
