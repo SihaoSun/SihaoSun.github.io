@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MARL_Arm | Sihao Sun</title>
+    <link>https://SihaoSun.github.io/tag/marl_arm/</link>
+      <atom:link href="https://SihaoSun.github.io/tag/marl_arm/index.xml" rel="self" type="application/rss+xml" />
+    <description>MARL_Arm</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 16 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://SihaoSun.github.io/images/icon_hu6c1b14bc8ff89c2ed4ecac6b87cb96ac_156507_512x512_fill_lanczos_center_3.png</url>
+      <title>MARL_Arm</title>
+      <link>https://SihaoSun.github.io/tag/marl_arm/</link>
+    </image>
+    
+    <item>
+      <title>(Open) Multi-Agent Reinforcement Learning for Cooperative Aerial Manipulation</title>
+      <link>https://SihaoSun.github.io/assignments/multiarmrl/</link>
+      <pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://SihaoSun.github.io/assignments/multiarmrl/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

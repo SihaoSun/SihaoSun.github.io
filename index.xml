@@ -5,12 +5,36 @@
     <link>https://SihaoSun.github.io/</link>
       <atom:link href="https://SihaoSun.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Sihao Sun</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 20 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 16 Apr 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://SihaoSun.github.io/images/icon_hu6c1b14bc8ff89c2ed4ecac6b87cb96ac_156507_512x512_fill_lanczos_center_3.png</url>
       <title>Sihao Sun</title>
       <link>https://SihaoSun.github.io/</link>
     </image>
+    
+    <item>
+      <title>(Open) Multi-Agent Reinforcement Learning for Cooperative Aerial Manipulation</title>
+      <link>https://SihaoSun.github.io/assignments/multiarmrl/</link>
+      <pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://SihaoSun.github.io/assignments/multiarmrl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>(Open) Visual-Servoing for an Under-Actuated Aerial Manipulator</title>
+      <link>https://SihaoSun.github.io/assignments/visual-servoing/</link>
+      <pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://SihaoSun.github.io/assignments/visual-servoing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>(Open) Actuator Dynamic Compensator for Incremental Nonlinear Control</title>
+      <link>https://SihaoSun.github.io/assignments/actuator/</link>
+      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://SihaoSun.github.io/assignments/actuator/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Uncertainty Modeling Enabled Meta Adaptive Control for Aerial Manipulators</title>
@@ -36,7 +60,7 @@ Supplementary notes can be added here, including [code and math](https://sourcet
     </item>
     
     <item>
-      <title>Whole-body Planning and Control of an Aerial Robotic Manipulator</title>
+      <title>(In progress) Whole-body Planning and Control of an Aerial Robotic Manipulator</title>
       <link>https://SihaoSun.github.io/assignments/arm/</link>
       <pubDate>Wed, 03 Apr 2024 00:00:00 +0000</pubDate>
       <guid>https://SihaoSun.github.io/assignments/arm/</guid>
@@ -44,18 +68,18 @@ Supplementary notes can be added here, including [code and math](https://sourcet
     </item>
     
     <item>
-      <title>Actuator Dynamic Compensator for Incremental Nonlinear Control</title>
-      <link>https://SihaoSun.github.io/assignments/actuator/</link>
-      <pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://SihaoSun.github.io/assignments/actuator/</guid>
+      <title>(In progress) Contact-based incremental nonlinear control for aerial manipulators</title>
+      <link>https://SihaoSun.github.io/assignments/incrementalcontact/</link>
+      <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://SihaoSun.github.io/assignments/incrementalcontact/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Contact-based incremental nonlinear control for aerial manipulators</title>
-      <link>https://SihaoSun.github.io/assignments/incrementalcontact/</link>
+      <title>(In progress) Privileged learning for distributed aerial robot control for collaborative object manipulations</title>
+      <link>https://SihaoSun.github.io/assignments/privileged/</link>
       <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://SihaoSun.github.io/assignments/incrementalcontact/</guid>
+      <guid>https://SihaoSun.github.io/assignments/privileged/</guid>
       <description></description>
     </item>
     
