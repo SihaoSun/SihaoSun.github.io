@@ -36,6 +36,29 @@ Supplementary notes can be added here, including [code and math](https://sourcet
     </item>
     
     <item>
+      <title>Proximal cooperative aerial manipulation with vertically stacked drones</title>
+      <link>https://SihaoSun.github.io/publication/pcam_nature/</link>
+      <pubDate>Mon, 29 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://SihaoSun.github.io/publication/pcam_nature/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
       <title>(Open) Actuator Dynamic Compensator for Incremental Nonlinear Control</title>
       <link>https://SihaoSun.github.io/assignments/actuator/</link>
       <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
@@ -73,6 +96,14 @@ Supplementary notes can be added here, including [code and math](https://sourcet
       <guid>https://SihaoSun.github.io/project/accurateam/</guid>
       <description>&lt;p&gt;Unlike mobile robots on the ground, air manipulators are based on a flying platform that can easily suffer from external forces and torque disturbances from the environment, such as wind and unknown payloads. This project aims to improve the accuracy of air manipulators through both hardware design and algorithm improvements.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Cooperative Aerial Manipulations of Cable-Suepended Loads</title>
+      <link>https://SihaoSun.github.io/project/camls/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://SihaoSun.github.io/project/camls/</guid>
+      <description>&lt;!-- Drones have limited load capacities and developing heavy-lifting drones are costly. Using multiple drones to collaboratively lifting a load offers theoretically unlimited load capacities, yet offering substantial challenges in coordination, planning, estimation, and control. This project aims at developing   --&gt;</description>
     </item>
     
     <item>

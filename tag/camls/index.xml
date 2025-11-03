@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CAMLs | Sihao Sun</title>
+    <link>https://SihaoSun.github.io/tag/camls/</link>
+      <atom:link href="https://SihaoSun.github.io/tag/camls/index.xml" rel="self" type="application/rss+xml" />
+    <description>CAMLs</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://SihaoSun.github.io/images/icon_hu6c1b14bc8ff89c2ed4ecac6b87cb96ac_156507_512x512_fill_lanczos_center_3.png</url>
+      <title>CAMLs</title>
+      <link>https://SihaoSun.github.io/tag/camls/</link>
+    </image>
+    
+    <item>
+      <title>Cooperative Aerial Manipulations of Cable-Suepended Loads</title>
+      <link>https://SihaoSun.github.io/project/camls/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://SihaoSun.github.io/project/camls/</guid>
+      <description>&lt;!-- Drones have limited load capacities and developing heavy-lifting drones are costly. Using multiple drones to collaboratively lifting a load offers theoretically unlimited load capacities, yet offering substantial challenges in coordination, planning, estimation, and control. This project aims at developing   --&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

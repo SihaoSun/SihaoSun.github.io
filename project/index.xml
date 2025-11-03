@@ -22,6 +22,14 @@
     </item>
     
     <item>
+      <title>Cooperative Aerial Manipulations of Cable-Suepended Loads</title>
+      <link>https://SihaoSun.github.io/project/camls/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://SihaoSun.github.io/project/camls/</guid>
+      <description>&lt;!-- Drones have limited load capacities and developing heavy-lifting drones are costly. Using multiple drones to collaboratively lifting a load offers theoretically unlimited load capacities, yet offering substantial challenges in coordination, planning, estimation, and control. This project aims at developing   --&gt;</description>
+    </item>
+    
+    <item>
       <title>Agile Flight Control for Drones</title>
       <link>https://SihaoSun.github.io/project/quadrotoragile/</link>
       <pubDate>Mon, 20 Sep 2021 00:00:00 +0000</pubDate>
