@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dario Sanalitro | Sihao Sun</title>
-    <link>https://SihaoSun.github.io/author/dario-sanalitro/</link>
-      <atom:link href="https://SihaoSun.github.io/author/dario-sanalitro/index.xml" rel="self" type="application/rss+xml" />
-    <description>Dario Sanalitro</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 29 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <title>Eugene Vinitsky | Sihao Sun</title>
+    <link>https://SihaoSun.github.io/author/eugene-vinitsky/</link>
+      <atom:link href="https://SihaoSun.github.io/author/eugene-vinitsky/index.xml" rel="self" type="application/rss+xml" />
+    <description>Eugene Vinitsky</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 30 Sep 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://SihaoSun.github.io/images/icon_hu6c1b14bc8ff89c2ed4ecac6b87cb96ac_156507_512x512_fill_lanczos_center_3.png</url>
-      <title>Dario Sanalitro</title>
-      <link>https://SihaoSun.github.io/author/dario-sanalitro/</link>
+      <title>Eugene Vinitsky</title>
+      <link>https://SihaoSun.github.io/author/eugene-vinitsky/</link>
     </image>
     
     <item>
-      <title>Agile and Cooperative Aerial Manipulation of a Cable-Suspended Load</title>
-      <link>https://SihaoSun.github.io/publication/camls_sr/</link>
-      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://SihaoSun.github.io/publication/camls_sr/</guid>
+      <title>Decentralized Aerial Manipulation of a Cable-Suspended Load using Multi-Agent Reinforcement Learning</title>
+      <link>https://SihaoSun.github.io/publication/camls_corl/</link>
+      <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://SihaoSun.github.io/publication/camls_corl/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
