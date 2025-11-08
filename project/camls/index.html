@@ -27,7 +27,7 @@
   
     
   
-  <meta name="description" content="This project developes algorithms to lift and control orientation of a cable-suspended load using multiple aerial robots.">
+  <meta name="description" content="This project develops algorithms to lift and control the orientation of a cable-suspended load using multiple aerial robots.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://SihaoSun.github.io/project/camls/">
@@ -234,7 +234,7 @@
   <meta property="og:site_name" content="Sihao Sun">
   <meta property="og:url" content="https://SihaoSun.github.io/project/camls/">
   <meta property="og:title" content="Cooperative Aerial Manipulations of Cable-Suepended Loads | Sihao Sun">
-  <meta property="og:description" content="This project developes algorithms to lift and control orientation of a cable-suspended load using multiple aerial robots."><meta property="og:image" content="https://SihaoSun.github.io/project/camls/featured.png">
+  <meta property="og:description" content="This project develops algorithms to lift and control the orientation of a cable-suspended load using multiple aerial robots."><meta property="og:image" content="https://SihaoSun.github.io/project/camls/featured.png">
   <meta property="twitter:image" content="https://SihaoSun.github.io/project/camls/featured.png"><meta property="og:locale" content="en-us">
   
     
@@ -286,7 +286,7 @@
       "url": "https://SihaoSun.github.io/images/icon_hu6c1b14bc8ff89c2ed4ecac6b87cb96ac_156507_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "This project developes algorithms to lift and control orientation of a cable-suspended load using multiple aerial robots."
+  "description": "This project develops algorithms to lift and control the orientation of a cable-suspended load using multiple aerial robots."
 }
 </script>
 
@@ -601,41 +601,6 @@
 
 
 
-<div class="btn-links mb-3">
-  
-  <a class="btn btn-outline-primary my-1" href="https://sihaosun.github.io/ScienceRoboticsCAMLs/" target="_blank" rel="noopener">Go to Project Site</a>
-  
-  
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
 
 </div>
 
@@ -652,7 +617,33 @@
   <div class="article-container">
 
     <div class="article-style">
-      <!-- Drones have limited load capacities and developing heavy-lifting drones are costly. Using multiple drones to collaboratively lifting a load offers theoretically unlimited load capacities, yet offering substantial challenges in coordination, planning, estimation, and control. This project aims at developing   -->
+      <p>Drones have limited load capacities, and developing heavy-lifting drones is costly. Using multiple drones to collaboratively lift a load offers theoretically unlimited load capacities, yet it offers substantial challenges in coordination, planning, estimation, and control. This project aims at algorithmic development to enable agile, robust, and decentralized collaboration to enable collaborative aerial manipulation of a cable-suspended load.</p>
+<p>First of all, we have developed a centralized algorithm, recently published in 
+<a href="https://www.science.org/stoken/author-tokens/ST-3015/full" target="_blank" rel="noopener">Science Robotics</a>. It considers the quadrotors-cables-load system as a whole, and solves the kinodynamic motion planning problem online to generate receding horizon reference trajectories for all quadrotors. The trajectories are subsequently followed by onboard INDI (incremental nonlinear dynamic inversion) controllers to compensate for cable tensions and other external disturbances. Notably, no additional sensors are required to be mounted on the load; instead, the load poses are estimated through quadrotor state estimates. 
+<a href="https://sihaosun.github.io/ScienceRoboticsCAMLs/" target="_blank" rel="noopener">Here is the link to the paper&rsquo;s project page</a>.</p>
+<div style="display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; margin-top: -10px; margin-bottom: -10px;">
+  <figure style="width: 100%; text-align: center; margin: 0;">
+    <video autoplay loop muted playsinline width="100%" style="margin: 0; padding: 0;">
+      <source src="flythrough.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <figcaption> Obstacle avoidance maneuver with the centralized method (Science Robotics)</figcaption>
+  </figure>
+</div>
+<p>We&rsquo;ve further explored two paths towards decentralized cooperative aerial manipulation. Decentralized means that the algorithms are executed fully onboard each quadrotor, without a centralized coordinator.</p>
+<p>A first attempt was recently accepted by IEEE MRS 2025. This work, entitled &ldquo;Decentralized Real-Time Planning for Multi-UAV Cooperative Manipulation via Imitation Learning&rdquo; (
+<a href="https://arxiv.org/abs/2510.17143" target="_blank" rel="noopener">Link to the paper</a>), leverages imitation learning to train student policies for each quadrotor (with only partial observability, namely states of each quadrotor itself) by learning the centralized teacher policy (the abovementioned centralized planner). The same as the teacher, the student policy also generates receding horizon reference trajectories for each quadrotor. To ensure smoothness, we leverage Physics-informed neural networks (PINNs) as the architecture of the student policy. The training leverages the DAgger (Dataset Aggregation) algorithm. This approach has shown decent trajectory tracking performance and even generalizability beyond the training trajectories.</p>
+<p>A second attempt was recently presented at CoRL 2025, entitled &ldquo;Decentralized Aerial Manipulation of a Cable-Suspended Load Using Multi-Agent Reinforcement Learning&rdquo; (
+<a href="https://autonomousrobots.nl/paper_websites/aerial-manipulation-marl" target="_blank" rel="noopener">Link to the project</a>). In this work, we explored the capability of multi-agent reinforcement learning (MA-PPO). We trained the PPO in the simulation environment with a centralized critic and decentralized actors. The policy is deployed onboard each quadrotor, taking its own states and the load states as observations. The action space is selected as accelerations and angular rates, then executed by onboard INDI controllers. In addition to similar setpoint tracking performance compared to the centralized method, it also &ldquo;emerges&rdquo; fault-tolerance. When one quadrotor fails in flight, the remaining quadrotors can still control the remaining controllable DoFs of the load.</p>
+<div style="display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; margin-top: -10px; margin-bottom: -10px;">
+  <figure style="width: 100%; text-align: center; margin: 0;">
+    <video autoplay loop muted playsinline width="100%" style="margin: 0; padding: 0;">
+      <source src="failure_agent.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <figcaption> Stable and controllable flight after failure of one quadrotor (CoRL 2025)</figcaption>
+  </figure>
+</div>
     </div>
 
     
@@ -888,6 +879,129 @@
       
       
         <h2>Publications</h2>
+        
+          
+            
+
+
+
+
+
+
+
+  
+  
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="https://sihaosun.github.io/ScienceRoboticsCAMLs/" target="_blank" rel="noopener">Agile and Cooperative Aerial Manipulation of a Cable-Suspended Load</a>
+    </h3>
+
+    
+    <div class="article-style">
+      We propose a trajectory-based framework for agile and robust manipulation of cable-suspended loads using multiple quadrotors.
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span ><a href="/author/sihao-sun/">Sihao Sun</a></span>, <span >Xuerui Wang</span>, <span >Dario Sanalitro</span>, <span >Antonio Franchi</span>, <span >Marco Tognon</span>, <span >Javier Alonso-Mora</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.science.org/stoken/author-tokens/ST-3015/full" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/camls_sr/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/camls/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://youtu.be/FBWN-rTK1YU" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="https://sihaosun.github.io/ScienceRoboticsCAMLs/" target="_blank" rel="noopener">
+      <img src="/publication/camls_sr/featured_hu7bd1c55dfb15045931b3ae9902258146_2144638_150x0_resize_lanczos_3.png" alt="Agile and Cooperative Aerial Manipulation of a Cable-Suspended Load">
+    </a>
+    
+  </div>
+</div>
+
+          
         
           
             
