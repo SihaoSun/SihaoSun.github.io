@@ -630,11 +630,19 @@
     <figcaption> Obstacle avoidance maneuver with the centralized method (Science Robotics)</figcaption>
   </figure>
 </div>
+<p>A recent atempt is exploring the potential of the centralized method in construction domain. Here we use four quadrotors (each weighing 0.6 kg) to cooperatively control the orientation and position of a large-span space frame (2.6 m × 0.5 m × 1.0 m) with a total mass of 3.0 kg. The frame is made of plastic—originally a DIY fort toy for kids—but it serves as a lightweight stand-in for structural assemblies. An interesting question is how to scale up the system to even larger structures with heavier weights.</p>
+<div style="display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; margin-top: -10px; margin-bottom: -10px;">
+  <figure style="width: 100%; text-align: center; margin: 0;">
+    <video autoplay loop muted playsinline width="100%" style="margin: 0; padding: 0;">
+      <source src="demo_4_drones_space_frame.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <figcaption> Four drones collaboratively manipulating a large-span space frame</figcaption>
+  </figure>
+</div>
 <p>We&rsquo;ve further explored two paths towards decentralized cooperative aerial manipulation. Decentralized means that the algorithms are executed fully onboard each quadrotor, without a centralized coordinator.</p>
 <p>A first attempt was recently accepted by IEEE MRS 2025. This work, entitled &ldquo;Decentralized Real-Time Planning for Multi-UAV Cooperative Manipulation via Imitation Learning&rdquo; (
 <a href="https://arxiv.org/abs/2510.17143" target="_blank" rel="noopener">Link to the paper</a>), leverages imitation learning to train student policies for each quadrotor (with only partial observability, namely states of each quadrotor itself) by learning the centralized teacher policy (the abovementioned centralized planner). The same as the teacher, the student policy also generates receding horizon reference trajectories for each quadrotor. To ensure smoothness, we leverage Physics-informed neural networks (PINNs) as the architecture of the student policy. The training leverages the DAgger (Dataset Aggregation) algorithm. This approach has shown decent trajectory tracking performance and even generalizability beyond the training trajectories.</p>
-<p>A second attempt was recently presented at CoRL 2025, entitled &ldquo;Decentralized Aerial Manipulation of a Cable-Suspended Load Using Multi-Agent Reinforcement Learning&rdquo; (
-<a href="https://autonomousrobots.nl/paper_websites/aerial-manipulation-marl" target="_blank" rel="noopener">Link to the project</a>). In this work, we explored the capability of multi-agent reinforcement learning (MA-PPO). We trained the PPO in the simulation environment with a centralized critic and decentralized actors. The policy is deployed onboard each quadrotor, taking its own states and the load states as observations. The action space is selected as accelerations and angular rates, then executed by onboard INDI controllers. In addition to similar setpoint tracking performance compared to the centralized method, it also &ldquo;emerges&rdquo; fault-tolerance. When one quadrotor fails in flight, the remaining quadrotors can still control the remaining controllable DoFs of the load.</p>
 <div style="display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; margin-top: -10px; margin-bottom: -10px;">
   <figure style="width: 100%; text-align: center; margin: 0;">
     <video autoplay loop muted playsinline width="100%" style="margin: 0; padding: 0;">
@@ -644,6 +652,9 @@
     <figcaption> Stable and controllable flight after failure of one quadrotor (CoRL 2025)</figcaption>
   </figure>
 </div>
+<p>A second attempt was recently presented at CoRL 2025, entitled &ldquo;Decentralized Aerial Manipulation of a Cable-Suspended Load Using Multi-Agent Reinforcement Learning&rdquo; (
+<a href="https://autonomousrobots.nl/paper_websites/aerial-manipulation-marl" target="_blank" rel="noopener">Link to the project</a>). In this work, we explored the capability of multi-agent reinforcement learning (MA-PPO). We trained the PPO in the simulation environment with a centralized critic and decentralized actors. The policy is deployed onboard each quadrotor, taking its own states and the load states as observations. The action space is selected as accelerations and angular rates, then executed by onboard INDI controllers. In addition to similar setpoint tracking performance compared to the centralized method, it also &ldquo;emerges&rdquo; fault-tolerance. When one quadrotor fails in flight, the remaining quadrotors can still control the remaining controllable DoFs of the load.</p>
+
     </div>
 
     
@@ -1243,7 +1254,7 @@
     
     
     
-    <script src="/js/academic.min.cd45a9c0bbdd3dfb1c126917c601c9f2.js"></script>
+    <script src="/js/academic.min.4aaf2d64e50f8e54cf66dcc54147a22e.js"></script>
 
     
 
