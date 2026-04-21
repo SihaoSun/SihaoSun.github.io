@@ -258,9 +258,7 @@ To be specific, the project leverages incremental nonlinear dynamic inversion (I
 We have validated the proposed controllers in a large scale wind tunnel, named [**Open Jet Facility**](https://www.tudelft.nl/lr/organisatie/afdelingen/aerodynamics-wind-energy-flight-performance-and-propulsion/facilities/low-speed-wind-tunnels/open-jet-facility/) at TU Delft. Despite a complete loss of one or two propellers, the tested quadrotor can maintain high-speed flight. In addition to validating the controller, these wind tunnel flight tests have produced valuable data for identifying [**aerodynamic models**](/project/quadrotormodeling) of a quadrotor, in both nominal and damaged conditions.
 
 Another focus of the research aims at recovering the damaged quadrotor after motor failure. When a motor failure is detected, a quadrotor might have been entered a detrimental flight condition, such as an upside-down orientation, where the drone can hardly recover to stable flights using the state-of-art methods.
-Therefore, we have developed an [**upset recovery controller**](/publication/upsetrecovery/), using a novel control allocation approach. --&gt;&lt;blockquote&gt;
-&lt;/blockquote&gt;
-</description>
+Therefore, we have developed an [**upset recovery controller**](/publication/upsetrecovery/), using a novel control allocation approach. --&gt;</description>
     </item>
     
     <item>
@@ -532,6 +530,14 @@ Supplementary notes can be added here, including [code and math](https://sourcet
       <link>https://SihaoSun.github.io/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://SihaoSun.github.io/research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://SihaoSun.github.io/team/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://SihaoSun.github.io/team/</guid>
       <description></description>
     </item>
     
