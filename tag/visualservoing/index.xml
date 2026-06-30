@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Assignments | Sihao Sun</title>
-    <link>https://SihaoSun.github.io/assignments/</link>
-      <atom:link href="https://SihaoSun.github.io/assignments/index.xml" rel="self" type="application/rss+xml" />
-    <description>Assignments</description>
+    <title>VisualServoing | Sihao Sun</title>
+    <link>https://SihaoSun.github.io/tag/visualservoing/</link>
+      <atom:link href="https://SihaoSun.github.io/tag/visualservoing/index.xml" rel="self" type="application/rss+xml" />
+    <description>VisualServoing</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 30 Jun 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://SihaoSun.github.io/images/icon_hu6c1b14bc8ff89c2ed4ecac6b87cb96ac_156507_512x512_fill_lanczos_center_3.png</url>
-      <title>Assignments</title>
-      <link>https://SihaoSun.github.io/assignments/</link>
+      <title>VisualServoing</title>
+      <link>https://SihaoSun.github.io/tag/visualservoing/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>https://SihaoSun.github.io/assignments/visualservoing/</link>
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
       <guid>https://SihaoSun.github.io/assignments/visualservoing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>(Closed) Actuator Dynamic Compensator for Incremental Nonlinear Control</title>
-      <link>https://SihaoSun.github.io/assignments/actuator/</link>
-      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://SihaoSun.github.io/assignments/actuator/</guid>
       <description></description>
     </item>
     

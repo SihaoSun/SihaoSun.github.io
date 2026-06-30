@@ -5,12 +5,20 @@
     <link>https://SihaoSun.github.io/</link>
       <atom:link href="https://SihaoSun.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Sihao Sun</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 24 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 30 Jun 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://SihaoSun.github.io/images/icon_hu6c1b14bc8ff89c2ed4ecac6b87cb96ac_156507_512x512_fill_lanczos_center_3.png</url>
       <title>Sihao Sun</title>
       <link>https://SihaoSun.github.io/</link>
     </image>
+    
+    <item>
+      <title>(Open) Visual-Servoing for an Under-Actuated Aerial Manipulator</title>
+      <link>https://SihaoSun.github.io/assignments/visualservoing/</link>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://SihaoSun.github.io/assignments/visualservoing/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Global End-Effector Pose Control of an Underactuated Aerial Manipulator via Reinforcement Learning</title>
@@ -105,7 +113,7 @@ Supplementary notes can be added here, including [code and math](https://sourcet
     </item>
     
     <item>
-      <title>(Open) Actuator Dynamic Compensator for Incremental Nonlinear Control</title>
+      <title>(Closed) Actuator Dynamic Compensator for Incremental Nonlinear Control</title>
       <link>https://SihaoSun.github.io/assignments/actuator/</link>
       <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
       <guid>https://SihaoSun.github.io/assignments/actuator/</guid>
