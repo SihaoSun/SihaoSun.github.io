@@ -2,16 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://SihaoSun.github.io/tag/aerial-construction/</loc>
+    <lastmod>2026-07-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://SihaoSun.github.io/project/harpa/</loc>
+    <lastmod>2026-07-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://SihaoSun.github.io/tag/multi-robot-systems/</loc>
+    <lastmod>2026-07-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://SihaoSun.github.io/project/</loc>
+    <lastmod>2026-07-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://SihaoSun.github.io/</loc>
+    <lastmod>2026-07-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://SihaoSun.github.io/tags/</loc>
+    <lastmod>2026-07-08T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://SihaoSun.github.io/assignments/visualservoing/</loc>
     <lastmod>2026-06-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://SihaoSun.github.io/assignments/</loc>
-    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://SihaoSun.github.io/</loc>
-    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://SihaoSun.github.io/tags/</loc>
     <lastmod>2026-06-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://SihaoSun.github.io/tag/visualservoing/</loc>
@@ -126,9 +138,6 @@
     <lastmod>2024-01-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://SihaoSun.github.io/project/camls/</loc>
-    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://SihaoSun.github.io/project/</loc>
     <lastmod>2024-01-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://SihaoSun.github.io/author/davide-scaramuzza/</loc>
